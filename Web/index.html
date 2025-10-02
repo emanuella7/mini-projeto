@@ -33,8 +33,8 @@
             <div class="input-box">
                 <label for="height">Altura (m)</label>
                 <div class="input-field">
-                    <i class="fa-solid fa-ruler-vertical"></i>
-                    <input type="number" id="height" required>
+                    <i class="fa-solid fa-ruler"></i>
+                    <input type="number" step="0.01" id="height" name="height">
                     <span>
                         m
                     </span>
@@ -42,25 +42,29 @@
             </div>
             <button id="calculate">Calcular</button>
         </form>
-        <div id="result">
-            <h2>Seu IMC é:</h2>
-            <p id="imc-value">0</p>
+        <div id="infos" class="hidden"></div>
+        
+            <div id="imc">
+                <span id="value"></span>
+                <span><h2>Seu IMC é:</h2></span>
+                <div id="result"></div>
+                <p id="imc-value">0</p>
             <p id="imc-category">Categoria</p>
+            </div>
+            <div id="description">
+                <span>55</span>
+            </div>
         </div>
         <div id="infos">
             <h2>Informações</h2>
-            <ul>
-                <li>Abaixo do peso: Menor que 18,5</li>
-                <li>Peso normal: Entre 18,5 e 24,9</li>
-                <li>Sobrepeso: Entre 25 e 29,9</li>
-                <li>Obesidade grau 1: Entre 30 e 34,9</li>
-                <li>Obesidade grau 2: Entre 35 e 39,9</li>
-                <li>Obesidade grau 3: Maior que 40</li>
-            </ul>
+            <a href="https://prefeitura.sp.gov.br/web/saude/w/noticias/332991">
+                Mais Informações sobre IMC
+            </a>
+            <i class="fa-solid fa-link"></i>
         </div>
         
     </section>
    </main>
-
+    <script src="JS/script.js"></script>
 </body>
 </html>
