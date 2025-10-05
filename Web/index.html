@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="CSS/Styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>Calculadora IMC</title>
@@ -16,55 +15,45 @@
 
     <section id="calculator">
         <form id="form">
-            <h1 id="title">
-                Calculadora - IMC
-            </h1>
+            <h1 id="title">Calculadora - IMC</h1>
 
             <div class="input-box">
                 <label for="weight">Peso (kg)</label>
                 <div class="input-field">
                     <i class="fa-solid fa-weight-scale"></i>
-                    <input type="number" id="weight" required>
-                    <span>
-                        kg
-                    </span>
+                    <input type="number" id="weight" step="0.1" required>
+                    <span>kg</span>
                 </div>
             </div>
+
             <div class="input-box">
                 <label for="height">Altura (m)</label>
                 <div class="input-field">
                     <i class="fa-solid fa-ruler"></i>
-                    <input type="number" step="0.01" id="height" name="height">
-                    <span>
-                        m
-                    </span>
+                    <input type="number" step="0.01" id="height" required>
+                    <span>m</span>
                 </div>
             </div>
+
             <button id="calculate">Calcular</button>
         </form>
-        <div id="infos" class="hidden"></div>
-        
-            <div id="imc">
-                <span id="value"></span>
-                <span><h2>Seu IMC é:</h2></span>
-                <div id="result"></div>
-                <p id="imc-value">0</p>
-            <p id="imc-category">Categoria</p>
-            </div>
-            <div id="description">
-                <span>55</span>
-            </div>
+
+        <div id="infos" class="hidden">
+            <h2>Seu IMC é:</h2>
+            <p id="value">0</p>
+            <p id="description"></p>
         </div>
-        <div id="infos">
-            <h2>Informações</h2>
+
+        <div id="more-infos">
+            <h2>Informações adicionais</h2>
             <a href="https://prefeitura.sp.gov.br/web/saude/w/noticias/332991">
-                Mais Informações sobre IMC
+                Mais informações sobre IMC
             </a>
             <i class="fa-solid fa-link"></i>
         </div>
-        
     </section>
    </main>
-    <script src="JS/script.js"></script>
+
+   <script src="JS/script.js"></script>
 </body>
 </html>
