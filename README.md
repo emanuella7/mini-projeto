@@ -60,16 +60,19 @@ Este projeto é uma **Calculadora de IMC (Índice de Massa Corporal)** feita com
 ## 🛠️ Estrutura de pastas
 📁 Calculadora-IMC
 │
+
+
 ├── 📁 CSS
+
 │ └── Styles.css
-│
+
+
 ├── 📁 JS
+
 │ └── script.js
-│
-├── 📁 Img
-│ └── malhando.webp
-│
+
 ├── index.html
+
 └── README.md
 
 ---
