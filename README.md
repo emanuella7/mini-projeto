@@ -102,10 +102,12 @@ Este projeto é uma **Calculadora de IMC (Índice de Massa Corporal)** feita com
 
 ---
 
-## 👩‍💻 Autora
+## 👩‍💻 Autoras
 
 **Emanuella de Fátima Oliveira de Sousa**
+
 **Diuli Endy Porfírio Pinheiro**
+
 📧 Projeto desenvolvido para fins de estudo e prática em desenvolvimento web.
 
 ---
