@@ -11,8 +11,8 @@ form.addEventListener('submit', function(event) {
         return;
     }
 
-    const imc = weight / ((height / 100) ** 2);
-    const imcFixed = imc.toFixed(2);
+   const imc = weight / (height ** 2);
+    const imcFixed = imc.toFixed(1);
 
     const value = document.getElementById('value');
     let description = '';
